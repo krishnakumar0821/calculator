@@ -1,0 +1,88 @@
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  
+  /* Container */
+  .container {
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    max-width: 400px;
+    padding: 1.5rem;
+  }
+  
+  /* Wrapper */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input Text */
+  .input-text {
+    margin-bottom: 1rem;
+  }
+  
+  /* Input Box */
+  #input-box {
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-align: right;
+    width: 100%;
+  }
+  
+  /* Button Container */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  /* Button */
+  button {
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    color: #333;
+    cursor: pointer;
+    font-size: 1.25rem;
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  /* Operator Buttons */
+  #divide, #multiply, #minus, #plus {
+    background-color: #f1f1f1;
+    color: #555;
+  }
+  
+  /* Zero Button */
+  .zero {
+    width: 7.5rem;
+  }
+  
+  /* Equal Button */
+  #equal {
+    background-color: #0f0;
+    color: #fff;
+  }
+  
+  /* Button Hover */
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Button Active */
+  button:active {
+    box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  }
+  
